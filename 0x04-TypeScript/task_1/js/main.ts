@@ -11,8 +11,8 @@ interface Teacher{
 interface Directors extends Teacher{
 	numberOfReports: Number
 
-
 }
+
 
 interface printTeacherFunction{
 	(firstName:string, lastName:string):string
@@ -22,7 +22,7 @@ const printTeacher:printTeacherFunction= (firstName:string, lastName:string)=>{
 	return `${firstName.charAt(0)}.${lastName}`
 
 }
-// console.log(printTeacher("shaza", "aly")); /*s.aly*/
+
 interface classInterface{
 	firstName :string;
 	lastName: string;
@@ -49,6 +49,6 @@ class StudentClass implements classInterface{
 
 }
 
-const student = new StudentClass("Shaza", "Aly");
+const student = new StudentClass("jawad", "katten");
 console.log(student.displayName())
 console.log(student.workOnHomework())
