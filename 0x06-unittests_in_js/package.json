@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "mocha": "^10.3.0"
+    "mocha": "^10.7.3"
   },
   "scripts": {
     "test": "mocha"
@@ -8,5 +8,11 @@
   "dependencies": {
     "chai": "^4.2.0",
     "sinon": "^17.0.1"
-  }
+  },
+  "name": "0x06-unittests_in_js",
+  "description": "0x06. Unittests in JS UnitTests Back-end JavaScript ES6 NodeJS ExpressJS Mocha",
+  "version": "1.0.0",
+  "main": "0-calcul.js",
+  "author": "",
+  "license": "ISC"
 }
